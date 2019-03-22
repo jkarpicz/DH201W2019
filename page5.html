@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.9.5, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.9.5, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+  <meta name="description" content="Web Page Generator Description">
+  <title>About</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="header1 cid-rlt1wOXhTy mbr-parallax-background" id="header16-33">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 align-center">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    ABOUT</h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">
+                    Creating the project: Data, sources, and positionality.</p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="engine"><a href="https://mobirise.info/k">develop your own website</a></section><section class="features11 cid-rlhLN78ikU" id="features11-17">
+
+    
+
+    
+
+    <div class="container">   
+        <div class="col-md-12">
+            <div class="media-container-row">
+                <div class="mbr-figure m-auto" style="width: 35%;">
+                    <img src="assets/images/screenshot2-467x630.png" alt="Mobirise" title="">
+                </div>
+                <div class=" align-left aside-content">
+                    <h2 class="mbr-title pt-2 mbr-fonts-style display-2"><strong>State Art Collection</strong></h2>
+                    <div class="mbr-section-text">
+                        <p class="mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7">The dataset used in creating this project was the Washington State Art Collection's dataset. The data is available via data.WA.gov, the open data portal for the State of Washington. The link to the state art collection is: https://data.wa.gov/Education/State-Art-Collection/yfjt-f6ae &nbsp;</p>
+                    </div>
+
+                    <div class="block-content">
+                        <div class="card p-3 pr-3">
+                            <div class="media">
+                                     
+                                <div class="media-body">
+                                    <h4 class="card-title mbr-fonts-style display-5"><strong>
+                                        Dataset</strong></h4>
+                                </div>
+                            </div>                
+
+                            <div class="card-box">
+                                <p class="block-text mbr-fonts-style display-7">There were a few, small steps in preparing the data for analysis. Working from the full data set of the collection, I create dfilters for each column and filtered the column 'Artwork Site' by 'College' and 'University' and saved this filtered list as the dataset that I would use. In looking at the full list of institutions represented in the datase, I noticed there was a middle and a high school that had 'University' in their school name, I removed these entries from the data. <br><br>Additionally, I reached out to the <a href="https://www.arts.wa.gov/" target="_blank">Washington State Arts Commission</a> to clarify the meaning of the 'Date' column and learned that it referred to either the date the artwork was installed or the date the work was created (if it was created prior to being acquired by the state). I learned that the year represented in the column 'ID Number' - where entries were formatting as 'WSAC1977.025.000' - indicated the year of acquisition for the state collection. I used OpenRefine to separate this column into multiple columns, separated after WSAC and each period, I then removed all the columns except for the one containing the year. This column became the year of acquisition.<br><br>Finally, in mapping the latitude and longitude coordinates, there were two art pieces whose longitude coordinates were missing a period, making them a value in the hundreds of thousands an impossible to map. I added a decimal place after the third digit, to generate a coordinate that matched the others in the dataset and would come up in the state of Washington on a map. I used Excel for most of my data cleaning and manipulation, creating additional sheets to count the number of unique institutions represented and how many pieces were at each, for example.</p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>          
+</section>
+
+<section class="mbr-section content4 cid-rlsCiW7C5o" id="content4-2p">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5"><strong>
+                    Data Visualizations</strong></h2>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rlsC7ZNUR4" id="content1-2o">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p><span style="font-size: 1rem;">The data visualizations for this project were created using Tableau Public, Flourish, Sutori, and Mapchart.net. I used Tableau Public to create the density map of the artwork pieces across the state as well as the line graph showing how many pieces were acquired by each institution in each year. I used Flourish to create the bubble chart that I used to show the shift towards site-specific, commissioned pieces. This chart was initially created in Excel and then I shifted to Flourish to be able to embed the chart with more interactive features (i.e. if you hover over any of the bubbles, information about that point of data appears). I used Mapchart to create a quick map showing the states with active and inactive percent for art programs.</span><br></p><p>Finally, I used Sutori to create the embedded timeline of percent for arts programs in the United States. The majority of the data for the timeline came from <a href="https://nasaa-arts.org/nasaa_research/state-percent-art-programs/" target="_blank">a list of programs maintained by the National Assembly of State Art Agencies</a> as well as each state program's website (often the site for the local arts commission or council). I added in information about two states no longer on the list: North Carolina and Wisconsin, but was unable to find information about Michigan's old percent for art program.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-rlt0awfPFV" id="content4-31">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5"><strong>
+                    Limitations</strong></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">White the WSAC dataset is a rich source of information about the art at Washington's public colleges and institutions, the data for this project also has limitations that affect the interpretation and presentation of this project</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content12 cid-rlt0cbS6Dh" id="content12-32">
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
+                <ul>
+                    <li>There is limited information about the artists' background in the dataset, though the State Art Commission's database has additional but varied information about artists' background, including their year of birth, chosen media and style of art, and sometimes educational information.</li><li>Although there are coordinates (latitude / longitude) for each piece in the collection, there are not publicly map data layers for campus maps on which to map these coordinates.<br></li><li>There is limited information about placement of art at the artwork site (outdoors / indoors) &nbsp;or information indicating the relationship between pieces when multiple pieces by the same artist are purchased for the same site, in the same year. These pieces may be considered part of one larger piece or series, or separate pieces that were jointly commissioned.<br></li><li>There is a small number of pieces without a date that the artwork was created (n.d.).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-rlsCLvWf2Z" id="content4-2q">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5"><strong>Researcher Positionality</strong></h2>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content7 cid-rlq1W6u14f" id="content7-2m">
+          
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-10">
+                <div class="media-container-row">
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text align-right mb-0 mbr-fonts-style display-7">This perspective I take in this project, looking at public art through the specific context of higher education, is informed by my academic and research background in the field of higher education.<br><br>Additionally, I come to the project as someone who has volunteered and supported the work of <a href="https://gatewaysmag.org/art-in-worcester-parks/" target="_blank">Art in the Park, Worcester</a> since its first exhibit in 2008. AIP Worcester is a large-scale public art exhibit at historic Elm Park, in Worcester, Massachusetts. My interest in public art has been shaped by my experience with public art in my hometown during my college years.</p>
+                        </div>
+                    </div>
+                    <div class="mbr-figure" style="width: 45%;">
+                     <img src="assets/images/art1-525x557.jpg" alt="Mobirise" title="">  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-rlmAK4Pdrk" id="content4-1k">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5"><strong>References</strong></h2>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content12 cid-rlmCAFwyiU" id="content12-1l">
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
+                <ul>
+                    <li><strong>MOBILE FRIENDLY</strong> - o special actions required, all sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site, it will adapt automagically. <a href="https://mobirise.co/">Try it now!</a></li>
+                    <li><strong>EASY AND SIMPLE</strong> - cut down the development time with drag-and-drop website builder. Drop the blocks into the page, edit content inline and publish - no technical skills required. <a href="https://mobirise.co/">Try it now!</a></li>
+                    <li><strong>UNIQUE STYLES</strong> - choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. <a href="https://mobirise.co/">Try it now!</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header1 cid-rlt1AkP2Dg" id="header16-34">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 align-center">
+                
+                
+                
+                <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline display-4" href="index.html">HOME</a> <a class="btn btn-md btn-white-outline display-4" href="page2.html">PERCENT FOR ART PROGRAMS</a></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+</body>
+</html>

@@ -1433,7 +1433,7 @@ body {
   background-image: url("../../../assets/images/elements-1200-1200x800.jpg");
 }
 .cid-rlmRWANltk {
-  padding-top: 15px;
+  padding-top: 45px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -1664,6 +1664,9 @@ body {
 .cid-rlsNYTtUTM blockquote {
   color: #767676;
 }
+.cid-rlsNYTtUTM .mbr-text P {
+  color: #232323;
+}
 .cid-rlsXnxVF8o {
   background: #ffffff;
   padding-top: 30px;
@@ -1704,7 +1707,7 @@ body {
   background-color: #ffffff;
 }
 .cid-rlmXt0N2UR .mbr-section-subtitle {
-  color: #767676;
+  color: #232323;
 }
 .cid-rlmXLu1INc {
   padding-top: 60px;
@@ -1733,11 +1736,14 @@ body {
   line-height: 20px;
   transition: all .2s;
   color: #ffffff;
-  background: #4f4943;
+  background: #232323;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-rlmXLu1INc .mbr-text UL {
+  color: #232323;
 }
 .cid-rltxeaFs9b {
   padding-top: 0px;
@@ -1750,7 +1756,7 @@ body {
 .cid-rlhvmED0xH {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/728-2014.002.00a-h-blomdahl-finals-03-edited-700x375-bottom-700x375.jpg");
+  background-image: url("../../../assets/images/aug2011-corimedeiros-49-792x526.jpg");
 }
 .cid-rlhxwKPiUn {
   padding-top: 30px;
@@ -2032,6 +2038,9 @@ body {
 .cid-rlt1wOXhTy .mbr-section-btn {
   color: #ffffff;
 }
+.cid-rlt1wOXhTy H3 {
+  color: #ffffff;
+}
 .cid-rlhLN78ikU {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -2095,7 +2104,10 @@ body {
   }
 }
 .cid-rlhLN78ikU .mbr-text {
-  color: #4f4943;
+  color: #232323;
+}
+.cid-rlhLN78ikU P {
+  color: #232323;
 }
 .cid-rlsCiW7C5o {
   padding-top: 0px;
@@ -2114,16 +2126,19 @@ body {
 .cid-rlsC7ZNUR4 blockquote {
   color: #767676;
 }
-.cid-rlt0awfPFV {
+.cid-rlsC7ZNUR4 .mbr-text P {
+  color: #232323;
+}
+.cid-rlvOjF4bZu {
   padding-top: 30px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
   background-color: #232323;
 }
-.cid-rlt0awfPFV .mbr-section-subtitle {
+.cid-rlvOjF4bZu .mbr-section-subtitle {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
 }
-.cid-rlt0awfPFV B {
+.cid-rlvOjF4bZu B {
   color: #ffffff;
 }
 .cid-rlt0cbS6Dh {
@@ -2194,7 +2209,7 @@ body {
   }
 }
 .cid-rlq1W6u14f .mbr-text {
-  color: #767676;
+  color: #232323;
   text-align: left;
 }
 .cid-rlmAK4Pdrk {
@@ -2248,6 +2263,9 @@ body {
 .cid-rlmZy6q2Qq H1 {
   color: #ffffff;
 }
+.cid-rlmZy6q2Qq H3 {
+  color: #ffffff;
+}
 .cid-rln1VgqpH3 {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -2286,15 +2304,15 @@ body {
   font-size: 60px;
   color: #777;
 }
-.cid-rltwunmHpm {
+.cid-rlvyhMmN7S {
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
   background-color: #232323;
 }
-.cid-rltwunmHpm .mbr-section-subtitle {
+.cid-rlvyhMmN7S .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rltwunmHpm B {
+.cid-rlvyhMmN7S H2 {
   color: #ffffff;
 }
 .cid-rlorGut7BL {

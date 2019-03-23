@@ -32,10 +32,9 @@
         <div class="row justify-content-md-center">
             <div class="col-md-10 align-center">
                 <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    ABOUT</h1>
-                
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">
-                    Creating the project: Data, sources, and positionality.</p>
+                    About</h1>
+                <h3 class="mbr-section-subtitle mbr-light pb-3 mbr-fonts-style display-5">Creating the project: Data, sources, and positionality.</h3>
+                <p class="mbr-text pb-3 mbr-fonts-style display-7"><em>Image of&nbsp;“Maru” by Gerard Tsutakawa at the University of Washington, Tacoma.</em></p>
                 
             </div>
         </div>
@@ -43,7 +42,7 @@
 
 </section>
 
-<section class="engine"><a href="https://mobirise.info/c">web builder</a></section><section class="features11 cid-rlhLN78ikU" id="features11-17">
+<section class="engine"><a href="https://mobirise.info/w">free html5 templates</a></section><section class="features11 cid-rlhLN78ikU" id="features11-17">
 
     
 
@@ -53,12 +52,12 @@
         <div class="col-md-12">
             <div class="media-container-row">
                 <div class="mbr-figure m-auto" style="width: 35%;">
-                    <img src="assets/images/screenshot2-467x630.png" alt="Mobirise" title="">
+                    <a href="https://data.wa.gov/Education/State-Art-Collection/yfjt-f6ae" target="_blank"><img src="assets/images/screenshot2-467x630.png" alt="Mobirise" title=""></a>
                 </div>
                 <div class=" align-left aside-content">
                     <h2 class="mbr-title pt-2 mbr-fonts-style display-2"><strong>State Art Collection</strong></h2>
                     <div class="mbr-section-text">
-                        <p class="mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7">The dataset used in creating this project was the Washington State Art Collection's dataset. The data is available via data.WA.gov, the open data portal for the State of Washington. The link to the state art collection is: https://data.wa.gov/Education/State-Art-Collection/yfjt-f6ae &nbsp;</p>
+                        <p class="mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7">The dataset used in creating this project was the Washington State Art Collection. The dataset is available via data.WA.gov, the open data portal for the State of Washington. The link to the state art collection is: https://data.wa.gov/Education/State-Art-Collection/yfjt-f6ae &nbsp;</p>
                     </div>
 
                     <div class="block-content">
@@ -72,7 +71,7 @@
                             </div>                
 
                             <div class="card-box">
-                                <p class="block-text mbr-fonts-style display-7">There were a few, small steps in preparing the data for analysis. Working from the full data set of the collection, I create dfilters for each column and filtered the column 'Artwork Site' by 'College' and 'University' and saved this filtered list as the dataset that I would use. In looking at the full list of institutions represented in the datase, I noticed there was a middle and a high school that had 'University' in their school name, I removed these entries from the data. <br><br>Additionally, I reached out to the <a href="https://www.arts.wa.gov/" target="_blank">Washington State Arts Commission</a> to clarify the meaning of the 'Date' column and learned that it referred to either the date the artwork was installed or the date the work was created (if it was created prior to being acquired by the state). I learned that the year represented in the column 'ID Number' - where entries were formatting as 'WSAC1977.025.000' - indicated the year of acquisition for the state collection. I used OpenRefine to separate this column into multiple columns, separated after WSAC and each period, I then removed all the columns except for the one containing the year. This column became the year of acquisition.<br><br>In mapping the latitude and longitude coordinates, there were two art pieces whose longitude coordinates were missing a period, making them a value in the hundreds of thousands an impossible to map. I added a decimal place after the third digit, to generate a coordinate that matched the others in the dataset and would come up in the state of Washington on a map. I used Excel for most of my data cleaning and manipulation, creating additional sheets to count the number of unique institutions represented and how many pieces were at each, for example.<br><br>Finally, information about the artists' educational background was gathered from a range of sources; including, the <a href="http://www.artswa.org/mwebcgi/mweb/mweb?request=advform#" target="_blank">ArtsWA database</a>, artist, collective, and gallery websites, artist Wikipedia pages, obituaries, and newspaper articles.</p>
+                                <p class="block-text mbr-fonts-style display-7">There were a few, small steps in preparing the data for analysis. Working from the full data set of the collection, I filtered the column 'Artwork Site' by 'College' and 'University' and saved this filtered list as the dataset that I would use for analysis. In looking at the full list of colleges and universities represented in the database, I noticed there was a middle and a high school that had 'University' in their school name, I removed these entries from the data. <br><br>Additionally, I reached out to the <a href="https://www.arts.wa.gov/" target="_blank">Washington State Arts Commission</a> to clarify the meaning of the 'Date' column and learned that it referred to either the date the artwork was installed or the date the work was created (if it was created prior to being acquired by the state). I learned that the year represented in the column 'ID Number' - where entries were formatting as 'WSAC1977.025.000' - indicated the year of acquisition for the state collection. I used OpenRefine to separate this column into multiple columns, separated after WSAC and each period, I then removed all the columns except for the one containing the year. This column became the year of acquisition.<br><br>In mapping the latitude and longitude coordinates, there were two art pieces whose longitude coordinates were missing a period, making them a value in the hundreds of thousands and impossible to map. I added a decimal place after the third digit, to generate a coordinate that matched the others in the dataset and would come up as in the state of Washington. I used Excel for most of my data cleaning and manipulation, creating additional sheets to count the number of unique institutions represented and how many pieces were at each, for example.<br><br>Finally, information about the artists' educational background was gathered from a range of sources; including, the <a href="http://www.artswa.org/mwebcgi/mweb/mweb?request=advform#" target="_blank">ArtsWA database</a>, artist, collective, and gallery websites, artist Wikipedia pages, obituaries, and newspaper articles.</p>
                             </div>
                         </div>
 
@@ -106,12 +105,12 @@
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p><span style="font-size: 1rem;">The data visualizations for this project were created using Tableau Public, Flourish, Sutori, and Mapchart.net. I used Tableau Public to create the density map of the artwork pieces across the state as well as the line graph showing how many pieces were acquired by each institution in each year. I used Flourish to create the bubble chart that I used to show the shift towards site-specific, commissioned pieces. This chart was initially created in Excel and then I shifted to Flourish to be able to embed the chart with more interactive features (i.e. if you hover over any of the bubbles, information about that point of data appears). I used Mapchart to create a quick map showing the states with active and inactive percent for art programs.</span><br></p><p>Finally, I used Sutori to create the embedded timeline of percent for arts programs in the United States. The majority of the data for the timeline came from <a href="https://nasaa-arts.org/nasaa_research/state-percent-art-programs/" target="_blank">a list of programs maintained by the National Assembly of State Art Agencies</a> as well as each state program's website (often the site for the local arts commission or council). I added in information about two states no longer on the list: North Carolina and Wisconsin, but was unable to find information about Michigan's old percent for art program.</p></div>
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p><span style="font-size: 1rem;">The data visualizations for this project were created using Tableau Public, Flourish, Sutori, and Mapchart.net. I used Tableau Public to create the density map of the artwork pieces, the line graph showing how many pieces were acquired by each institution in each year, as well as the visualizations showing the proportions of artwork and artists affiliated with various institutions. I used Flourish to create the line chart showing acquisitions over time as well as a bubble chart that I used to show the shift towards site-specific, commissioned pieces. The latter chart was initially created in Excel and then I shifted to Flourish to be able to embed the chart with more interactive features (i.e. if you hover over any of the bubbles, information about that point of data appears). I used Mapchart to create a quick map showing the states with active and inactive percent for art programs.</span><br></p><p>Finally, I used Sutori to create the embedded timeline of percent for arts programs in the United States. The majority of the data for the timeline came from <a href="https://nasaa-arts.org/nasaa_research/state-percent-art-programs/" target="_blank">a list of programs maintained by the National Assembly of State Art Agencies</a> as well as each state program's website (often the site for the local arts commission or council). I added in information about two states no longer on the list: North Carolina and Wisconsin, but was unable to find information about Michigan's old percent for art program.</p></div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section content4 cid-rlt0awfPFV" id="content4-31">
+<section class="mbr-section content4 cid-rlvOjF4bZu" id="content4-44">
 
     
 
@@ -120,7 +119,7 @@
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-5"><strong>
                     Limitations</strong></h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">White the WSAC dataset is a rich source of information about the art at Washington's public colleges and institutions, the data for this project also has limitations that affect the interpretation and presentation of this project</h3>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">White the WSAC dataset is a rich source of information about the art at Washington's public colleges and institutions, the data for this project also has limitations that affected the interpretation and presentation of this project</h3>
                 
             </div>
         </div>
@@ -134,7 +133,7 @@
         <div class="media-container-row">
             <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
                 <ul>
-                    <li>There is limited information about the artists' background in the dataset, though the State Art Commission's database has additional but varied information about artists' background, including their year of birth, chosen media and style of art, and sometimes educational information.</li><li>Although there are coordinates (latitude / longitude) for each piece in the collection, there are not publicly map data layers for campus maps on which to map these coordinates.<br></li><li>There is limited information about placement of art at the artwork site (outdoors / indoors) &nbsp;or information indicating the relationship between pieces when multiple pieces by the same artist are purchased for the same site, in the same year. These pieces may be considered part of one larger piece or series, or separate pieces that were jointly commissioned.<br></li><li>There is a small number of pieces without a date that the artwork was created (n.d.).</li>
+                    <li>There is limited information about the artists' background in the dataset, though the State Art Commission's online database has some information about artists' background, including their year of birth, chosen media and style of art, and sometimes educational information.</li><li>Although there are coordinates (latitude / longitude) for each piece in the collection, there aren't publicly available campus map data layers on which to map these coordinates.<br></li><li>There is limited information about the placement of art at the artwork site (outdoors / indoors) as well as information indicating the relationship between pieces when multiple pieces by the same artist are purchased for the same site in the same year. These pieces may be considered part of one larger piece or series, or separate pieces that were jointly commissioned.<br></li><li>There is a small number of pieces without a creation date (n.d.).</li>
                 </ul>
             </div>
         </div>
@@ -166,7 +165,7 @@
                 <div class="media-container-row">
                     <div class="media-content">
                         <div class="mbr-section-text">
-                            <p class="mbr-text align-right mb-0 mbr-fonts-style display-7">This perspective I take in this project, looking at public art through the specific context of higher education, is informed by my academic and research background in the field of higher education.<br><br>Additionally, I come to the project as someone who has volunteered and supported the work of <a href="https://gatewaysmag.org/art-in-worcester-parks/" target="_blank">Art in the Park, Worcester</a> since its first exhibit in 2008. AIP Worcester is a large-scale public art exhibit at historic Elm Park, in Worcester, Massachusetts. My interest in public art has been shaped by my experience with public art in my hometown during my college years.</p>
+                            <p class="mbr-text align-right mb-0 mbr-fonts-style display-7">This perspective I take in this project, looking at public art through the specific context of higher education, is informed by my academic and research background in the field of higher education. Additionally, I come to the project as someone who has volunteered and supported the work of <a href="https://gatewaysmag.org/art-in-worcester-parks/" target="_blank">Art in the Park, Worcester</a> since its first exhibit in 2008. AIP Worcester is a large-scale public art exhibit at historic Elm Park, in Worcester, Massachusetts. My interest in public art has been shaped by this experience with public art in my hometown during my college years.</p>
                         </div>
                     </div>
                     <div class="mbr-figure" style="width: 45%;">
@@ -200,12 +199,10 @@
         <div class="media-container-row">
             <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
                 <ul>
-                    <li>Paulsen, K. (2010). Placemaking. In R. Hutchison (Ed.), <em>Encyclopedia of urban studies</em> (pp. 600-603). Thousand Oaks, CA: SAGE Publications, Inc. doi: 10.4135/9781412971973.n214</li><li>Bowen, H. R. (1977).  <em>Investment in learning:  The individual and social value of American higher education. </em>San Francisco, CA: Jossey-Bass.
-</li><li>Bowman, A. A. R. (2011). <em>Beyond the ivory tower: in search of a new form for campus community-relationships.</em> Boston, MA: Massachusetts Institute of Technology.
-</li><li>Kiefer, K. (2006). Art on campus 101: Aesthetics, identity, and lessons learned. <em>Public Art Review, 17</em>(2), 16.
-</li><li>Knight, B. (2016). Placemaking: Attracting and retaining today's students. <em>Community College Journal, 87</em>(2), 8.</li><li>Boase, T. (1955). An Oxford College and the Gothic Revival. Journal of the Warburg and Courtauld Institutes, 18(3/4), 145-188. doi:10.2307/750178 
-</li><li>
-Patton, G. (1967). American Collegiate Gothic: a phase of university architectural development. The Journal of Higher Education, 38(1), 1-8.</li>
+                    <li>Boase, T. (1955). An Oxford College and the Gothic Revival. <em>Journal of the Warburg and Courtauld Institutes, 18</em>(3/4), 145-188. doi:10.2307/750178</li><li>Bowen, H. R. (1977).  <em>Investment in learning:  The individual and social value of American higher education. </em>San Francisco, CA: Jossey-Bass.
+</li><li>Bowman, A. A. R. (2011). <em>Beyond the ivory tower: in search of a new form for campus community-relationships.</em> Boston, MA: Massachusetts Institute of Technology.</li><li>Clark-Langager, S. A. (2002). <em>Sculpture in place: A campus as site. </em>Bellingham: Western Washington University.</li><li>Diner, S. J. (2017). <em>Universities and their cities.</em> Baltimore, MD: Johns Hopkins University Press.&nbsp;</li><li>Hamilton, R. (2013, Oct. 24). If You Build It on Public University Campuses, 1 Percent Must Be Public Art. <em>The Texas Tribune.</em> Retrieved from https://www.nytimes.com/2013/10/25/us/if-you-build-it-on-public-university-campuses-1-percent-must-be-public-art.html</li><li>Gumprecht, B. (2007). The campus as a public space in the American college town. <em>Journal of Historical Geography, 33</em><span style="font-size: 1rem;">(1), 72-103.</span><br></li><li>Kiefer, K. (2006). Art on campus 101: Aesthetics, identity, and lessons learned. <em>Public Art Review, 17</em>(2), 16.
+</li><li>Knight, B. (2016). Placemaking: Attracting and retaining today's students. <em>Community College Journal, 87</em>(2), 8.</li><li>North Carolina Arts Council. (n.d.). <em>Creating place: North Carolina's artworks for state buildings.</em> Retrieved from http://cdm16062.contentdm.oclc.org/cdm/ref/collection/p249901coll22/id/30199</li><li>
+Patton, G. (1967). American Collegiate Gothic: a phase of university architectural development. <em>The Journal of Higher Education, 38</em>(1), 1-8.</li><li>Paulsen, K. (2010). Placemaking. In R. Hutchison (Ed.), <em>Encyclopedia of urban studies</em> (pp. 600-603). Thousand Oaks, CA: SAGE Publications, Inc. doi: 10.4135/9781412971973.n214</li><li>Thelin, J. R. (2011). <em>The history of American higher education</em>. Baltimore, MD: Johns Hopkins University Press.</li><li>Turnbull, David. <em>Maps Are Territories: Science Is an Atlas: A Portfolio of Exhibits</em>. University of Chicago Press ed. Chicago: University of Chicago Press, 1993. Retrieved from http://territories.indigenousknowledge.org/</li><li>Walljasper, J. (2008, Dec. 31). Big plans on campus. <em>Project for Public Spaces</em>. Retrieved from https://www.pps.org/article/campusbulletin</li><li>Washington State Arts Commission. (n.d.). <em>Strategic Plan 2015-2017</em>. Retreived from https://www.arts.wa.gov/media/dynamic/docs/FINAL%20Strategic%20Plan%202015-17.pdf</li>
                 </ul>
             </div>
         </div>
@@ -224,7 +221,7 @@ Patton, G. (1967). American Collegiate Gothic: a phase of university architectur
                 
                 
                 
-                <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline display-4" href="index.html">HOME</a> <a class="btn btn-md btn-white-outline display-4" href="page2.html">PERCENT FOR ART PROGRAMS</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-white-outline display-4" href="index.html">HOME</a> <a class="btn btn-md btn-white-outline display-4" href="page6.html">MAPS</a></div>
             </div>
         </div>
     </div>
